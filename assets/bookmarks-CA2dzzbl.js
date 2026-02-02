@@ -1,0 +1,1 @@
+import{L as t}from"./index-DMQAArxT.js";function k(o){return t({url:"/tools/bookmarks",method:"get",params:o})}function s(o){return t({url:"/tools/bookmarks",method:"post",data:o})}function u(o,r){return t({url:`/tools/bookmarks/${o}`,method:"put",data:r})}function a(o){return t({url:`/tools/bookmarks/${o}`,method:"delete"})}export{s as c,a as d,k as g,u};
